@@ -1253,13 +1253,6 @@ globals.Text = "Global Settings"
 globals.TextColor3 = Color3.fromRGB(0, 170, 0)
 globals.TextSize = 28.000
 globals.TextWrapped = true
-
--- Scripts:
-
-local function YDCVJBN_fake_script() -- Aimbot.Scripts 
-	local script = Instance.new('LocalScript', Aimbot)
-
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RedWirePlatinumTwo/RobloxScripts/main/ImportantFunctions.lua"))()
 	
 	local gui = script.Parent
 	local MainFrame = gui.MFrame
@@ -2298,4 +2291,3 @@ local function YDCVJBN_fake_script() -- Aimbot.Scripts
 		gui:Destroy()
 	end
 end
-coroutine.wrap(YDCVJBN_fake_script)()
