@@ -1,3 +1,5 @@
+# Se for compartilhar, de os creditos.
+
 local Aimbot = Instance.new("ScreenGui")
 local MFrame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
